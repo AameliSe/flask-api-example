@@ -29,7 +29,7 @@ def predict():
     
     except (TypeError, ValueError):
         # W przypadku błędnych danych wejściowych (np. brak liczb)
-        return jsonify({"error": "Nieprawidłowe parametry, proszę podać dwie liczby."}), 400
+        return jsonify({"error": "Nieprawidlowe parametry, prosze podac dwie liczby."}), 400
 
 if __name__ == '__main__':
     app.run(debug=True)
